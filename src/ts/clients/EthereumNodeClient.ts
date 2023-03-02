@@ -21,6 +21,7 @@ const debug = require("debug")("tx2uml")
 const tokenInfoAddresses: { [network: string]: string } = {
     mainnet: "0x05b4671B2cC4858A7E72c2B24e202a87520cf14e",
     polygon: "0x2aA8dba5bd50Dc469B50b5687b75c6212DeF3E1A",
+    optimism: "0x149a692a94eEe18e7854CEA1CEaab557618D4D46",
 }
 const ProxySlot =
     "0x360894a13ba1a3210667c828492db98dca3e2076cc3735a920a3ca505d382bbc"

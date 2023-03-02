@@ -162,6 +162,7 @@ export const networks = <const>[
     "sepolia",
     "polygon",
     "testnet.polygon",
+    "optimism",
     "arbitrum",
     "testnet.arbitrum",
     "avalanche",

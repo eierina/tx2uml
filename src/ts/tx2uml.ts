@@ -58,6 +58,7 @@ program
                 "mainnet",
                 "polygon",
                 "bsc",
+                "optimism",
                 "arbitrum",
                 "ropsten",
                 "kovan",

@@ -18,10 +18,10 @@ export const generateCallDiagram = async (hashes: string, options: any) => {
             case "anvil":
             case "besu":
                 debug("Using OpenEthereum client.")
-                return new OpenEthereumClient(options.url)
+                return new OpenEthereumClient(options.url, options.chain)
             default:
                 debug("Using Geth client.")
-                return new GethClient(options.url)
+                return new GethClient(options.url, options.chain)
         }
     })()
 

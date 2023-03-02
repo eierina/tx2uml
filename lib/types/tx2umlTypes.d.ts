@@ -145,7 +145,7 @@ export type ParamTypeInternal = {
     baseType: string;
     components?: ParamTypeInternal[];
 };
-export declare const networks: readonly ["mainnet", "goerli", "sepolia", "polygon", "testnet.polygon", "arbitrum", "testnet.arbitrum", "avalanche", "testnet.avalanche", "bsc", "testnet.bsc", "crono", "fantom", "testnet.fantom", "moonbeam", "optimistic", "kovan-optimistic", "gnosisscan"];
+export declare const networks: readonly ["mainnet", "goerli", "sepolia", "polygon", "testnet.polygon", "optimism", "arbitrum", "testnet.arbitrum", "avalanche", "testnet.avalanche", "bsc", "testnet.bsc", "crono", "fantom", "testnet.fantom", "moonbeam", "optimistic", "kovan-optimistic", "gnosisscan"];
 export type Network = (typeof networks)[number];
 export declare const outputFormats: readonly ["png", "svg", "eps", "puml"];
 export type OutputFormat = (typeof outputFormats)[number];

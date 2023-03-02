@@ -57,7 +57,7 @@ Options:
   -u, --url <url>               URL of the archive node with trace transaction support. (default: "http://localhost:8545", env: ARCHIVE_NODE_URL)
   -n, --nodeType <value>        geth (GoEthereum), anvil, tgeth (Erigion, fka Turbo-Geth), openeth (OpenEthereum, fka Parity), nether (Nethermind), besu (Hyperledger Besu). (choices: "geth", "anvil", "tgeth", "openeth", "nether", "besu", default: "geth", env:
                                 ARCHIVE_NODE_TYPE)
-  -c, --chain <value>           Blockchain explorer network to get source code from. (choices: "mainnet", "polygon", "bsc", "arbitrum", "ropsten", "kovan", "rinkeby", "goerli", "sepolia", default: "mainnet", env: ETH_NETWORK)
+  -c, --chain <value>           Blockchain explorer network to get source code from. (choices: "mainnet", "polygon", "bsc", "optimism", "arbitrum", "ropsten", "kovan", "rinkeby", "goerli", "sepolia", default: "mainnet", env: ETH_NETWORK)
   -cf, --configFile <value>     Name of the json configuration file that can override contract details like name and ABI. (default: "tx.config.json")
   -v, --verbose                 run with debugging statements. (default: false)
   -V, --version                 output the version number

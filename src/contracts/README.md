@@ -60,5 +60,5 @@ try {
 | Mainnet | [0x05b4671B2cC4858A7E72c2B24e202a87520cf14e](https://etherscan.io/address/0x05b4671b2cc4858a7e72c2b24e202a87520cf14e#code) | 
 | Polygon | 0x |
 | Arbitrum | 0x |
-| Optimism | 0x |
+| Optimism | [0x149a692a94eEe18e7854CEA1CEaab557618D4D46](https://optimistic.etherscan.io/address/0x149a692a94eEe18e7854CEA1CEaab557618D4D46#code) |
 

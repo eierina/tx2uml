@@ -22,7 +22,7 @@ export const generateValueDiagram = async (
             `Value transfers diagrams are not supports for the ${options.nodeType} client which does not support the debug.traceTransaction API`
         )
     }
-    const gethClient = new GethClient(options.url)
+    const gethClient = new GethClient(options.url, options.chain)
 
     // Initiate Etherscan client
     const etherscanClient = new EtherscanClient(
